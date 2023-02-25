@@ -36,14 +36,14 @@ class TV:
         return self.volumen
 
     def setCanal(self, canal):
-        if 0 < canal > 121:
+        if 0 < canal > 121 and self.getEstado():
             self.canal = canal
 
     def getCanal(self):
         return self.canal
 
-    def setNumTV(self, num):
-        self.numTV = num
+    def setNumTV(self, numTV):
+        self.numTV = numTV
 
     def getNumTV(self):
         return self.numTV
