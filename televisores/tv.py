@@ -10,6 +10,7 @@ class TV:
         self.marca = marca
         self.estado = estado
         self.numTV += 1
+        self.control = self.__class__
 
     def setMarca(self, marca):
         self.marca = marca
