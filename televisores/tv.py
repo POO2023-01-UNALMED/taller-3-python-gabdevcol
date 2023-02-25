@@ -61,7 +61,7 @@ class TV:
         if self.getCanal() < 120 and self.getEstado():
             self.canal += 1
 
-    def canalDown(self, canal):
+    def canalDown(self):
         if self.getCanal() > 1 and self.getEstado():
             self.canal -= 1
 
