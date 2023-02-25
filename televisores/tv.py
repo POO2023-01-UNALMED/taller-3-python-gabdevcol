@@ -4,7 +4,7 @@ class TV:
     volumen = 1
     precio = 500
     control = None
-    numTV = 0
+    numTV = int()
 
     def __init__(self, marca, estado):
         self.marca = marca
