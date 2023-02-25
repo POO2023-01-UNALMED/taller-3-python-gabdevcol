@@ -3,6 +3,9 @@ class Control:
     def __init__(self):
         self.tv = self.__class__
 
+    def getTv(self):
+        self.tv
+
     def turnOn(self):
         self.tv.turnOn()
 
